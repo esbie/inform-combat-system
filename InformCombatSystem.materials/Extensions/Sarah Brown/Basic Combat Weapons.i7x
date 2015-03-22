@@ -1,5 +1,7 @@
 Basic Combat Weapons by Sarah Brown begins here.
 
+Include Global Kinds and States by Sarah Brown.
+
 Section 1 - Weapon Definition
 
 Damage Type is a kind of value. The damage types are piercing, slashing, bludgeoning, and non-lethal.

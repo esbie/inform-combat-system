@@ -1,5 +1,7 @@
 Basic Combat Spells by Sarah Brown begins here.
 
+Include Global Kinds and States by Sarah Brown.
+
 Section 1 - Spell Definition
 
 A spell is a kind of backdrop. A spell can be carried. A spell has a number called Level. The level of a spell is usually 1. A spell has a number called casting time. The casting time of a spell is usually 1. A spell has a number called casting range. The casting range of a spell is usually 3. A spell has a number called duration. The duration of a spell is usually 0. A spell has an object based rulebook called behaviors.

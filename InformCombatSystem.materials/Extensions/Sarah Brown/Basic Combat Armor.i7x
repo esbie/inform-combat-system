@@ -1,5 +1,7 @@
 Basic Combat Armor by Sarah Brown begins here.
 
+Include Global Kinds and States by Sarah Brown.
+
 Section 1 - Armor Definition
 
 Armor is a kind of wearable thing. Armor has a cost. Armor has a weight. Armor has an Armor Class. Armor has a truth state called Stealth Disadvantaged. Armor has a number called Strength Check.
@@ -22,6 +24,13 @@ ring mail	30gp	40lb	14AC	true	0
 chain mail	75gp	55lb	16AC	true	13
 splint	200gp	60lb	17AC	true	15
 fullplate	1500gp	65lb	18AC	true	15
+
+Section 3 - Armor Rules
+
+Check an actor wearing something which is armor (this is the can't wear two armor sets rule):
+	if the actor is wearing armor:
+		say "you can't wear two pieces of armor";
+		stop the action;
 
 Section 2 - Shield Definition
 
