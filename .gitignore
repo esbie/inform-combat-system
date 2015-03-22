@@ -1,4 +1,10 @@
+.DS_Store
+*.plist
 InformCombatSystem.inform/Skein.skein
 InformCombatSystem.inform/notes.rtf
 InformCombatSystem.inform/uuid.txt
-InformCombatSystem.inform/Settings.plist
+InformCombatSystem.inform/Build
+InformCombatSystem.inform/Index
+InformCombatSystem.inform/Metadata.IFiction
+InformCombatSystem.inform/Release.blurb
+InformCombatSystem.materials/Icon
