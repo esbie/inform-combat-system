@@ -15,6 +15,7 @@ Current turn is a number that varies.
 
 Section 2 - Dice Rolling Rulebook
 
+[TODO: check that rollable item provides the property dice amount]
 Dice rolling is an object based rulebook producing a number.
 A dice rolling rule for an object (called rollable item) (this is the standard damage role rule):
 	let the damage roll be 0;

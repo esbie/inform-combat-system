@@ -4,11 +4,34 @@ Include Global Kinds and States by Sarah Brown.
 
 Section 1 - Spell Definition
 
-A spell is a kind of backdrop. A spell can be carried. A spell has a number called Level. The level of a spell is usually 1. A spell has a number called casting time. The casting time of a spell is usually 1. A spell has a number called casting range. The casting range of a spell is usually 3. A spell has a number called duration. The duration of a spell is usually 0. A spell has an object based rulebook called behaviors.
+A spell is a kind of thing.
+A spell can be carried.
+A spell has a number called Level. The level of a spell is usually 1.
+A spell has a number called casting time. The casting time of a spell is usually 1.
+A spell has a number called casting range. The casting range of a spell is usually 3.
+A spell has a number called duration. The duration of a spell is usually 0.
+A spell has an object based rulebook called behaviors.
 
 Definition: a spell is instantaneous if its duration is 0.
 
-A spell instantiation is a thing. A spell instantiation has a spell called used spell. A spell instantiation has a person called the caster.  A spell instantiation has an object called the target.
+A spell instantiation is a thing.
+A spell instantiation has a spell called used spell.
+A spell instantiation has a person called the caster.
+A spell instantiation has an object called the target.
+
+A spell slot is a kind of portable container.
+The carrying capacity of a spell slot is 1.
+A spell slot has a number called level. The level of a spell slot is usually 1.
+A spell slot has a spell called held spell.
+
+Check an actor inserting something into a spell slot (this is the can't insert non spells into a spell slot rule):
+	if the noun is not a spell:
+		if the actor is the player:
+			say "Only a spell can fit inside [the second noun]." (A);
+		stop the action.
+
+A person has a list of spells called learned spells.
+A person has a list of spell slots called available spell slots.
 
 Section 2 - List of Spells
 
@@ -26,7 +49,7 @@ A cure wounds behaviors rule for a spell instantiation (this is the cure wounds 
 
 Section 3 - Casting It On Action
 
-Casting it on is an action applying to one carried thing and one visible thing. Understand "cast [something preferably held] on [something]" as casting it on.
+Casting it on is an action applying to one thing and one visible thing. Understand "cast [something] on [something]" as casting it on.
 
 The casting it on action has an object called current spell being cast.
 
@@ -41,6 +64,16 @@ Check an actor casting something on something (this is the only spells can be ca
 	otherwise:
 		if the actor is the player, say "The only thing castable in this fantasy world are spells";
 		stop the action.
+
+Check an actor casting something on something (this is the only held spells can be cast rule):
+	if the noun is contained by an object (called receptacle):
+		if the receptacle is not held by the actor:
+			if the actor is the player, say "You haven't prepared such a spell";
+			stop the action;
+	otherwise:
+		if the noun is not held by the actor:
+			if the actor is the player, say "You haven't prepared such a cantrip";
+			stop the action;
 
 Check an actor casting something on something (this is the range check for spells rule):
 	if the casting range of the noun is less than the number of moves from the location of the actor to the location of the second noun:
