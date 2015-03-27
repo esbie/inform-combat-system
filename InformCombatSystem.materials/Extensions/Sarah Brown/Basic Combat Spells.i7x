@@ -30,6 +30,28 @@ Check an actor inserting something into a spell slot (this is the can't insert n
 			say "Only a spell can fit inside [the second noun]." (A);
 		stop the action.
 
+Check an actor inserting a spell into something (this is the can't insert spells into a non spell slot rule):
+	if the second noun is not a spell slot:
+		if the actor is the player:
+			say "Only a spell slot can hold [noun]." (A);
+		stop the action.
+
+Check an actor inserting a spell into a spell slot (this is the spell slot level rule):
+	if the level of noun is greater than the level of second noun:
+		if the actor is the player:
+			say "a spell slot of level [level of second noun] may not contain a spell of level [level of noun]." (A);
+		stop the action.
+
+Definition: a spell slot is first-level if its level is 1.
+Definition: a spell slot is second-level if its level is 2.
+Definition: a spell slot is third-level if its level is 3.
+Definition: a spell slot is fourth-level if its level is 4.
+Definition: a spell slot is fifth-level if its level is 5.
+Definition: a spell slot is sixth-level if its level is 6.
+Definition: a spell slot is seventh-level if its level is 7.
+Definition: a spell slot is eigth-level if its level is 8.
+Definition: a spell slot is ninth-level if its level is 9.
+
 A person has a list of spells called learned spells.
 A person has a list of spell slots called available spell slots.
 

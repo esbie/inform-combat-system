@@ -50,7 +50,10 @@ Part 3 - Character Sheets
 
 Grimrock is a male orc in the Forest Clearing South. "Grimrock gives you a low growl. He brandishes [a list of things carried by Grimrock]." The description of Grimrock is "He looks pretty competent." Grimrock has Max Hit Points 10HP. Grimrock carries a longbow. Grimrock wears a half plate. Grimrock wears a ritualistic talisman. The carrying capacity of Grimrock is 3. The ethics of grimrock are chaotic. Grimrock carries cure wounds.
 
-Nayn is a female human in the Forest Clearing North. "Nayn's not messing around. You can see she has [a list of things carried by Nayn]." The description of Nayn is "She looks exceedingly clever." Nayn has Max Hit Points 25HP. Nayn wears leather armor. Nayn carries a shield. Nayn carries a greatsword. Nayn carries a spell slot called first slot. First slot contains magic missile. The morality of nayn is good.
+Nayn is a female human in the Forest Clearing North. "Nayn's not messing around. You can see she has [a list of things carried by Nayn]." The description of Nayn is "She looks exceedingly clever." Nayn has Max Hit Points 25HP. Nayn wears leather armor. Nayn carries a shield. Nayn carries a greatsword. The morality of nayn is good. Nayn carries 4 first-level spell slots. Nayn carries 2 third-level spell slots. Nayn carries a second-level spell slot that contains cure wounds. 
+
+When play begins:
+	Now the available spell slots of nayn is the list of spell slots carried by nayn.
 
 The player is Grimrock. Understand "Grimrock" as Grimrock.
 
