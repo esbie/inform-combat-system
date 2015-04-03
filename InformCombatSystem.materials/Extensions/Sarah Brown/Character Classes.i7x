@@ -49,6 +49,14 @@ where m is a number, and s is a number
 
 Section 5 - Progression
 
+Table of Cleric Spell Slots Per Spell Level
+level	cantrip	first	second	third	fourth	fifth	sixth	seventh	eighth	ninth
+1	3	2	0	0	0	0	0	0	0	0
+2	0	1	0	0	0	0	0	0	0	0
+3	0	1	2 	0	0	0	0	0	0	0
+4	1	0	1	0	0	0	0	0	0	0
+5	0	0	0	2	0	0	0	0	0	0
+
 Table of Leveling Up
 level	xp to next level	proficiency gain
 1	300	2

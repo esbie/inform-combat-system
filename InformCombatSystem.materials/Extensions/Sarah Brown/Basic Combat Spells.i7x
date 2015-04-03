@@ -5,7 +5,6 @@ Include Global Kinds and States by Sarah Brown.
 Section 1 - Spell Definition
 
 A spell is a kind of thing.
-A spell can be carried.
 A spell has a number called Level. The level of a spell is usually 1.
 A spell has a number called casting time. The casting time of a spell is usually 1.
 A spell has a number called casting range. The casting range of a spell is usually 3.
@@ -14,15 +13,23 @@ A spell has an object based rulebook called behaviors.
 
 Definition: a spell is instantaneous if its duration is 0.
 
+Knowing relates one person to one spell.
+The verb to know means the knowing relation.
+The verb to be known means the reversed knowing relation.
+
 A spell instantiation is a thing.
 A spell instantiation has a spell called used spell.
 A spell instantiation has a person called the caster.
 A spell instantiation has an object called the target.
 
+Section 2 - Spell Slot Definition
+
 A spell slot is a kind of portable container.
 The carrying capacity of a spell slot is 1.
 A spell slot has a number called level. The level of a spell slot is usually 1.
 A spell slot has a spell called held spell.
+A spell slot is either spent or unspent.
+A spell slot is usually unspent.
 
 Check an actor inserting something into a spell slot (this is the can't insert non spells into a spell slot rule):
 	if the noun is not a spell:
@@ -42,6 +49,8 @@ Check an actor inserting a spell into a spell slot (this is the spell slot level
 			say "a spell slot of level [level of second noun] may not contain a spell of level [level of noun]." (A);
 		stop the action.
 
+
+Definition: a spell slot is cantrip if its level is 0.
 Definition: a spell slot is first-level if its level is 1.
 Definition: a spell slot is second-level if its level is 2.
 Definition: a spell slot is third-level if its level is 3.
@@ -51,9 +60,6 @@ Definition: a spell slot is sixth-level if its level is 6.
 Definition: a spell slot is seventh-level if its level is 7.
 Definition: a spell slot is eigth-level if its level is 8.
 Definition: a spell slot is ninth-level if its level is 9.
-
-A person has a list of spells called learned spells.
-A person has a list of spell slots called available spell slots.
 
 Section 2 - List of Spells
 
